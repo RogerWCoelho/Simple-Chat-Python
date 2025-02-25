@@ -6,7 +6,7 @@ servidor = "127.0.0.1"
 porta = 43210
 l = []
 
-#Funçao que realiza a comunicação do chat entre os clientes
+#Função que realiza a comunicação do chat entre os clientes
 def chat_clientes(a, b):
     msg = ""
     while str(msg).upper()  != "FIM":
